@@ -6,8 +6,136 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Task 4. Shadow</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+        /*Підключаємо шрифти 400 і 900 товщини*/
+
+       body {
+           margin: 0;
+       }
+        h1 {
+            font-size: 80px;
+            text-align: center;
+            margin: 0;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .main {
+            background-color: aquamarine;
+            padding: 30px 0;
+        }
+
+        .containerBox {
+            margin-top: 40px;
+            padding: 0 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .shadow {
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .smallBox {
+            width: 17%;
+            height: 200px;
+            margin: 20px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+       .black {
+           background-color: black;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .fuchsia {
+            background-color: fuchsia;
+        }
+        .white {
+            background-color: white;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+       .purple {
+           background-color: purple;
+        }
+        .maroon {
+            background-color: maroon;
+        }
+        .olive {
+            background-color: olive;
+        }
+        .whiteText {
+            color: white;
+        }
+        .blackText {
+            color: black;
+        }
+        h2, h3 {
+            margin: 10px 0;
+            font-family: 'Noto Sans', sans-serif;
+        }
+    </style>
 </head>
 <body>
-
+<div class="main">
+    <h1>HTML Color</h1>
+    <div class="containerBox">
+        <div class="smallBox black shadow">
+            <h2 class="whiteText">Black</h2>
+            <h3 class="whiteText">#000000</h3>
+        </div>
+        <div class="smallBox red shadow">
+            <h2 class="whiteText">Red</h2>
+            <h3 class="whiteText">#FF0000</h3>
+        </div>
+        <div class="smallBox green shadow">
+            <h2 class="whiteText">Green</h2>
+            <h3 class="whiteText">#00FF00</h3>
+        </div>
+        <div class="smallBox blue shadow">
+            <h2 class="whiteText">Blue</h2>
+            <h3 class="whiteText">#0000FF</h3>
+        </div>
+        <div class="smallBox fuchsia shadow">
+            <h2 class="whiteText">Fuchsia</h2>
+            <h3 class="whiteText">#FF00FF</h3>
+        </div>
+        <div class="smallBox white shadow">
+            <h2 class="blackText">Whit</h2>
+            <h3 class="blackText">#FFFFFF</h3>
+        </div>
+        <div class="smallBox yellow shadow">
+            <h2 class="blackText">Yellow</h2>
+            <h3 class="blackText">#FFFF00</h3>
+        </div>
+        <div class="smallBox purple shadow">
+            <h2 class="whiteText">Purple</h2>
+            <h3 class="whiteText">#800080</h3>
+        </div>
+        <div class="smallBox maroon shadow">
+            <h2 class="whiteText">Maroon</h2>
+            <h3 class="whiteText">#800000</h3>
+        </div>
+        <div class="smallBox olive shadow">
+            <h2 class="whiteText">Olive</h2>
+            <h3 class="whiteText">#808000</h3>
+        </div>
+    </div>
+</div>
 </body>
 </html>
