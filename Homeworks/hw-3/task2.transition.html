@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;700&display=swap"
+          rel="stylesheet">
+    <title>Page with transition</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'AR One Sans', sans-serif;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        span {
+            font-size: 4em;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+<section id="red">
+    <h1>Section title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque dolorum
+        eveniet itaque laboriosam sequi suscipit? Aut, distinctio eius eos eum facere
+        inventore officia pariatur qui quia repellat sequi tempora!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque dolorum
+        eveniet itaque laboriosam sequi suscipit? Aut, distinctio eius eos eum facere
+        inventore officia pariatur qui quia repellat sequi tempora!</p>
+    <a href="#blue"><span>&#8659</span></a>
+</section>
+<section id="blue">
+    <a href="#red"><span>&#8657</span></a>
+    <h1>Section title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque dolorum
+        eveniet itaque laboriosam sequi suscipit? Aut, distinctio eius eos eum facere
+        inventore officia pariatur qui quia repellat sequi tempora!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque dolorum
+        eveniet itaque laboriosam sequi suscipit? Aut, distinctio eius eos eum facere
+        inventore officia pariatur qui quia repellat sequi tempora!</p>
+    <a href="#green"> <span>&#8659</span></a>
+</section>
+<section id="green">
+    <a href="#blue"><span>&#8657</span></a>
+    <h1>Section title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque dolorum
+        eveniet itaque laboriosam sequi suscipit? Aut, distinctio eius eos eum facere
+        inventore officia pariatur qui quia repellat sequi tempora!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque dolorum
+        eveniet itaque laboriosam sequi suscipit? Aut, distinctio eius eos eum facere
+        inventore officia pariatur qui quia repellat sequi tempora!</p>
+</section>
+</body>
+</html>
