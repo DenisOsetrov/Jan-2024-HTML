@@ -90,11 +90,14 @@ body {
 
 iframe {
     width: 60vw;
+    /*height: calc(60vw * 9 / 16); !* Залежність від ширини зображення *!*/
+    height: 33.75vw; /* Висота відео відсотки від ширини екрану (16:9 співвідношення сторін) */
 }
 
 #page-video p {
     width: 60vw;
-    font-size: 35px;
+    max-width: 60vw; /* Максимальна ширина тексту */
+    font-size: 4vh;
 }
 
 #page-shop {
