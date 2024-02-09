@@ -110,7 +110,6 @@ iframe {
 }
 
 #page-shop div {
-    height: 70vh;
     width: 30vw;
     background: rgba(83, 83, 83, 0.40);
     display: flex;
@@ -131,6 +130,7 @@ iframe {
 
 #page-shop p {
     font-size: 180%;
+    text-align: center;
 }
 
 #page-shop .bucks {
