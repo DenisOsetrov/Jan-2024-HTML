@@ -27,7 +27,6 @@ body {
 
 .img-page1 {
     width: 50%;
-    height: 100%;
     background-image: url("img-task1/page1-center.png");
     background-size: cover;
     background-position: center;
@@ -35,28 +34,29 @@ body {
 
 .content-page1 {
     width: 50%;
-    height: 100%;
     background: #FAF9F7;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden; /* Add this line */
 }
 
 .content-page1 h2 {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 45px;
+    font-size: 4vw;
 }
 
 .content-page1 p {
-    font-size: 25px;
+    font-size: 2vw;
+    text-align: center;
 }
 
 .content-page1 button {
-    font-size: 30px;
-    width: 77%;
-    height: 19.4%;
+    font-size: 3vw;
+    width: 75%;
+    height: 20%;
     border-radius: 5px;
     border: 1px solid rgba(156, 152, 152, 0.10);
     background: rgba(217, 217, 217, 0.60);
