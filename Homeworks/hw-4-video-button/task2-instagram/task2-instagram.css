@@ -43,7 +43,7 @@ fieldset {
 input {
     margin-bottom: 1vh;
     width: 70%;
-    height: 4vh;
+    height: 4.5vh;
     border: 2px solid rgba(204, 204, 204, 0.75);
     border-radius: 5px;
 }
@@ -132,4 +132,32 @@ h2 {
 
 #registration-part2 h3 a:active {
     color: #4ed9b4; /* Зміна кольору при натисканні */
+}
+
+
+@media only screen and (max-width: 767px) {
+    .registration-form-wrapper {
+        width: 90vw; /* Змінюємо ширину на більш адаптивну для малих екранів */
+    }
+
+    input, button, #registration-part1 p a, #registration-part1 h3 a, #registration-part2 h3, #registration-part2 h3 a, h2 {
+        font-size: 4vw; /* Збільшуємо розмір шрифту для кращої читабельності */
+        text-align: center;
+    }
+
+    input {
+        height: 7vw;
+    }
+
+    button {
+      height: 8vw;
+    }
+
+    .instagram-logo {
+        width: 80%; /* Збільшуємо ширину логотипу Instagram на малих екранах */
+    }
+
+    .facebook-logo {
+        width: 6vw; /* Збільшуємо розмір логотипу Facebook на малих екранах */
+    }
 }
