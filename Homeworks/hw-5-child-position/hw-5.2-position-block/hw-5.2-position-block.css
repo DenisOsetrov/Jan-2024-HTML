@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container {
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cont1 {
+    border: 0.25vw solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.cont2 {
+    border: 0.25vw solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.cont3 {
+    border: 0.25vw solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.box-radius {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    top: -3.8vw;
+    border: 0.25vw solid;
+}
+
+img {
+    width: 65%;
+    border-radius: 10%;
+}
+
+.box-radius.r1 {
+    border-color: #554C4C; /* Задаємо колір рамки */
+}
+
+.r2 {
+    border-color: #65856E;
+}
+
+.r3 {
+    border-color: #554C4C;
+}
+
+.text-wrapper {
+    text-align: center;
+    width: 90%;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
