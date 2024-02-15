@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 30vh;
+    background-color: #8A8484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+article {
+    width: 75%;
+    height: 100%;
+    background-color: #889186;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 25%;
+    height: 100%;
+    background-color: #695c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------working with text---------------------*/
+
+.circle-text{
+    font-size: 3em;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.5em 0.7em 0.5em 0.7em;          /* Додайте деякий внутрішній відступ для більшого розміру */
+}
