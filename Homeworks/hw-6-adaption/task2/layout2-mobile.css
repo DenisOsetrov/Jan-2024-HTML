@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 15vh;
+    }
+
+    main {
+        height: 85vh;
+        flex-direction: column;
+    }
+
+    article {
+        width: 100vw;
+        height: 70vh;
+    }
+
+
+    section.big-box {
+        width: 100%;
+        height: 50vh;
+        background-color: #0856d2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.small-box-wrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+
+    }
+
+    section.small-box {
+        width: 33.33%;
+        height: 20vh;
+        background-color: #90b1e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    aside {
+        width: 100vw;
+        height: 15vh;
+        background-color: #3973d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle-text {
+        font-size: 6vh;
+        background-color: #b71414;
+        border-radius: 50%;
+        padding: 0.3em 0.5em 0.3em 0.5em;
+    }
+
+}
