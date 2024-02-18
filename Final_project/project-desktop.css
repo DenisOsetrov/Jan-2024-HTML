@@ -1,3 +1,7 @@
+/*------------------------------------------------------------*/
+/*------------------------   1440*1024   ---------------------*/
+/*------------------------------------------------------------*/
+
 body {
     margin: 0;
     background: #19191B;
@@ -18,7 +22,7 @@ section.first-page > header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    /*position: relative;*/
 }
 
 .first-page hr {
@@ -222,7 +226,6 @@ img {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-sizing: border-box;
-/
 }
 
 .small-img-wrapper {
@@ -231,9 +234,27 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('image/oval-1.svg');
     background-size: cover;
     background-position: center;
+}
+
+.oval-1 {
+    background-image: url('image/oval-1.svg');
+}
+.oval-2 {
+    background-image: url('image/oval-2.svg');
+}
+.oval-3 {
+    background-image: url('image/oval-3.svg');
+}
+.oval-4 {
+    background-image: url('image/oval-4.svg');
+}
+.oval-5 {
+    background-image: url('image/oval-5.svg');
+}
+.oval-6 {
+    background-image: url('image/oval-6.svg');
 }
 
 .box-wrapper h3 {
@@ -301,7 +322,6 @@ main.pages-wrapper {
 
 .fifth-page {
     height: 66vh;
-
     display: flex;
     flex-direction: column;
 }
@@ -340,4 +360,7 @@ footer p {
     font-size: 16px;
     line-height: 37.5%;
     letter-spacing: -0.5px;
+}
+.paragraph-none {
+    display: none;
 }

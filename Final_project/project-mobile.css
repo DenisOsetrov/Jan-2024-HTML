@@ -1,0 +1,236 @@
+/*/*------------------------------------------------------------*/
+/*------------------------   375*667   ---------------------*/
+/*------------------------------------------------------------*/
+
+@media screen and (max-width: 375px) {
+    /*------------------------------- 1 page ----------------------------------*/
+    section.first-page {
+        height: 160vh;
+        margin: 0 8vw;
+        border: 0 solid #000;
+        background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    }
+
+    /*------------------------------- header ----------------------------------*/
+    section.first-page > header {
+        height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .logo-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 9vw;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .logo-text {
+        color: #FFF;
+        font-family: "Montserrat", sans-serif;
+        font-size: 6.5vw;
+        margin-left: 1.5vw;
+    }
+
+    header > div.menu-wrapper {
+        display: none;
+    }
+
+    section.first-page .blank {
+        display: none;
+    }
+
+    /*--- main ---*/
+    section.first-page > main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .text-wrapper > h1 {
+        color: #FFF;
+        font-size: 12vw;
+        margin-bottom: 5vw;
+    }
+
+    .text-wrapper > p {
+        font-size: 5vw;
+        margin-top: 3vw;
+        margin-bottom: 10vw;
+    }
+
+    .service {
+        color: #FFFFFF;
+        font-size: 4vw;
+        width: 40vw;
+        height: 10vw;
+        border-radius: 2px;
+    }
+
+    .img-wrapper {
+        width: 90%;
+    }
+
+    /*---------------------------- 2 page ------------------------------*/
+    section.second-page {
+        height: 70vh;
+        background: #19191B;
+    }
+
+
+    .second-page div.header-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-60px {
+        width: 100%;
+        font-size: 9vw;
+        margin-top: 0;
+    }
+
+    .header-wrapper p {
+        width: 100%;
+        font-size: 4.5vw;
+        margin-top: 3vw;
+        margin-bottom: 9vw;
+    }
+
+    .total-pics img {
+        width: 100%;
+        background-size: cover;
+    }
+
+    /*---------------------------- 3 page ------------------------------*/
+    section.third-page {
+        height: 300vh;
+        background: #19191B;
+    }
+
+    .third-page header h1 {
+        text-align: left;
+        font-size: 9vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    br {
+        display: none;
+    }
+
+    .third-page main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        box-sizing: border-box;
+    }
+
+    .small-img-wrapper {
+        width: 18vw;
+        height: 18vw;
+    }
+
+
+    .box-wrapper h3 {
+        font-size: 6vw;
+    }
+
+    .box-wrapper p {
+        font-size: 4.5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    /*-------------------------------4 page ----------------------------------*/
+    section.fourth-page {
+        height: 80vh;
+        margin: 0;
+        width: 100vw;
+    }
+
+    .fourth-page header {
+        margin: 0 8vw 5vw 8vw;
+
+    }
+
+    .fourth-page h1 {
+        font-size: 9vw;
+        font-weight: 400;
+    }
+
+    .pages-wrapper div:nth-child(n+2) {
+        display: none;
+    }
+
+    .pages-wrapper div {
+        background: #1E1E20;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3vw;
+    }
+
+    .pages-wrapper img {
+        width: 90%;
+        margin: 4.5vw 10vw;
+    }
+
+    /*------------------------------------- 5 page -------------------------------*/
+    .fifth-page {
+        height: 120vh;
+        margin: 0;
+        justify-content: space-evenly;
+    }
+
+    .last-header {
+        height: 46vh;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        justify-content: center;
+    }
+
+    .header-60px-65 {
+        width: 80%;
+        font-size: 8vw;
+        margin: 5vw 8vw;
+    }
+
+    .last-header > button {
+        margin: 8vw 8vw;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 4.2vw;
+    }
+
+    .paragraph-none {
+        display: block;
+    }
+}
